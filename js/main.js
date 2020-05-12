@@ -8,6 +8,14 @@ $(document).ready(() => {
 	});
 });
 
+//Function for searching for movies. Catch error is in case something screws up.
 function getMovies(searchText) {
-	console.log(searchText);
+	axios
+		.get(' http://www.omdbapi.com/?s=' + searchText + '&apikey=72455408&')
+		.then((response) => {
+			console.log(response);
+		})
+		.catch((err) => {
+			console.log(err);
+		});
 }
