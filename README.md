@@ -24,8 +24,8 @@ This website isn't a line for line recreation of the Brad Traversy tutorial. The
 
 # Screenshots
 
-![Screenshot 1](images\movie-finder-snip.PNG)
-![Screenshot 2](images\movie-finder-snip-2.PNG)
+![Screenshot 1](images/movie-finder-snip.PNG)
+![Screenshot 2](images/movie-finder-snip-2.PNG)
 
 # Live Page
 
